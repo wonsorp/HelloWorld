@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorld.Rest.Common\HelloWorld.Rest.Common.csproj" />
     <ProjectReference Include="..\HelloWorld.Rest.Model\HelloWorld.Rest.Model.csproj" />
   </ItemGroup>
 

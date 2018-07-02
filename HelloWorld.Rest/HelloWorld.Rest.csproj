@@ -10,6 +10,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorld.Rest.Common\HelloWorld.Rest.Common.csproj" />
+    <ProjectReference Include="..\HelloWorld.Rest.Model\HelloWorld.Rest.Model.csproj" />
+    <ProjectReference Include="..\HelloWorld.Rest.Workflow\HelloWorld.Rest.Workflow.csproj" />
   </ItemGroup>
 
 </Project>
